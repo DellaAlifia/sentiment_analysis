@@ -50,9 +50,9 @@ def main():
         else:
             prediction = predict_sentiment(comment)
             if prediction == 1:
-                st.write("Positive Comment")
+                st.write("Tidak Mengandung Bullying")
             else:
-                st.write("Negative Comment")
+                st.write("Mengandung Bullying")
 
 if __name__ == '__main__':
     main()
